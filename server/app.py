@@ -1,5 +1,5 @@
 from config import app, Resource, api, jsonify, make_response
-from .models import Program
+from models import Program
 
 
 class AfterSchoolPrograms(Resource):
